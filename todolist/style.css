@@ -1,0 +1,33 @@
+#tasks {
+    padding: 20px 15px;
+    width: 400px;
+    border:none;
+    border-radius: 20px 0px 0px 20px;
+}
+#btn{
+    padding: 20px 15px;
+    border: none;
+    background-color: #fc68fc;
+    color: #ededed;
+}
+.flexProperty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 15px;
+    width: 300px;
+    border-bottom: 1px solid;
+    margin: 20px;
+}
+button{
+    padding: 5px 15px;
+    border: none;
+    background-color: rgb(242, 249, 255);
+    border-radius: 20px;
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+}
