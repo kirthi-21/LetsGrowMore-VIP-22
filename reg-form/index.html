@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link href="./style.css" rel="stylesheet" />
+    <style>
+        .inputDiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Job Registration form </h1>
+    <!-- Input boxes -->
+    <form>
+        <div class="inputDiv">
+            <label for="name"> Name </label>
+            <input type="text" class="input-element" id="input1" placeholder="Enter your name" />
+        </div>
+        <div class="inputDiv">
+            <label for="resume"> Resume </label>
+            <input type="url" class="input-element" id="input2" placeholder="Resume link here" />
+        </div>
+        <div class="inputDiv">
+            <input type="button" onclick="displayData()" value="Submit"  /> 
+        </div>
+    </form>
+    
+    <div id="displayTABLE"></div>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>

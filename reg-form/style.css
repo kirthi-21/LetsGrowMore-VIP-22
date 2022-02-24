@@ -1,0 +1,38 @@
+body{
+    background-color: #fafbe4;
+}
+h1{
+    text-align: center;
+}
+.input-element{
+    padding: 15px 20px;
+    width: 300px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 20px;
+}
+label{
+    width: 50px;
+    text-align: center;
+}
+input[type="button"]{
+    padding: 10px 100px;
+    background-color: #fcf8f8;
+    border: none;
+    border-radius: 20px;
+}
+table, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 20px 40px;
+}
+td {
+    background-color: #f0f3df;
+}
+td:nth-child(odd){
+    width: 300px;
+}
+#showData{
+    margin: 80px auto;
+    width: 400px;
+}
