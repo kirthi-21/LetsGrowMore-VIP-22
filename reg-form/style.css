@@ -32,7 +32,7 @@ td {
 td:nth-child(odd){
     width: 300px;
 }
-#showData{
+#displayTABLE{
     margin: 80px auto;
     width: 400px;
 }
